@@ -69,7 +69,7 @@ export default class HomeScreen extends Component{
         <Header
           backgroundColor={'purple'}
           centerComponent={{
-            text: 'Pocket Dicti',
+            text: 'Pocket Dictionary',
             style: { color: '#fff', fontSize: 20 },
           }}
         />
