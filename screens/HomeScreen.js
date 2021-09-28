@@ -69,7 +69,7 @@ export default class HomeScreen extends Component{
         <Header
           backgroundColor={'purple'}
           centerComponent={{
-            text: 'Pocket Dictionary',
+            text: 'Pocket Dicti',
             style: { color: '#fff', fontSize: 20 },
           }}
         />
@@ -115,7 +115,7 @@ export default class HomeScreen extends Component{
            }}
         /> 
       */}
-      {/*
+
           <TextInput
             style={styles.inputBox}
             onChangeText={text => {
@@ -130,7 +130,7 @@ export default class HomeScreen extends Component{
             }}
             value={this.state.text}
           />
-  ``````*/}
+              
           <TouchableOpacity
             style={styles.searchButton}
             onPress={() => {
